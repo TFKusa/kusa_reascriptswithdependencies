@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="kusa_reascriptswithdependencies" commit="21729ab7fcbac8a7a7c6d6e8e6c77ef7ed5517c1">
+<index version="1" name="kusa_reascriptswithdependencies" commit="7e4c74e53c8cb05fc5432a81780f5a04c3424b66">
   <category name="Items">
-    <reapack name="kusa_Split and implode from bank.py" type="script" desc="kusa_Split and implode from bank">
+    <reapack name="kusa_Split and implode from bank.lua" type="script" desc="kusa_Split and implode from bank">
       <metadata>
         <link rel="website">https://thomashugofritz.wixsite.com/website</link>
         <link rel="donation">https://paypal.me/tfkusa?country.x=FR&amp;locale.x=fr_FR</link>
       </metadata>
-      <version name="1.0" author="Kusa" time="2023-12-06T19:19:14Z">
-        <source main="main">https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/21729ab7fcbac8a7a7c6d6e8e6c77ef7ed5517c1/Items/kusa_Split%20and%20implode%20from%20bank.py</source>
+      <version name="1.0" author="Kusa" time="2023-12-06T21:14:01Z">
+        <source main="main">https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/7e4c74e53c8cb05fc5432a81780f5a04c3424b66/Items/kusa_Split%20and%20implode%20from%20bank.lua</source>
       </version>
     </reapack>
   </category>
