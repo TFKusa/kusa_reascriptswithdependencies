@@ -1,23 +1,9 @@
-# ReaPack Repository Template
+# Kusa ReaScripts with dependencies
 
-A template for GitHub-hosted ReaPack repositories with automated
-[reapack-index](https://github.com/cfillion/reapack-index)
-running from GitHub Actions.
+These scripts need specific setup to work, refer to the documentation of each script to install the required modules
+If you like and use my scripts, please consider making a small donation!
 
-Replace the name of the repository in [index.xml](/index.xml) when using this template.
-This will be the name shown in ReaPack.
+https://paypal.me/tfkusa?country.x=FR&locale.x=fr_FR
 
-```xml
-<index version="1" name="Name of your repository here">
-```
 
-Replace the contents of this file ([README.md](/README.md)).
-This will be the text shown when using ReaPack's "About this repository" feature.
-
-reapack-index looks for package files in subfolders.
-The folder tree represents the package categories shown in ReaPack.
-
-Each package file is expected to begin with a metadata header.
-See [Packaging Documentation](https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation) on reapack-index's wiki.
-
-The URL to import in ReaPack is [https://github.com/`<your username>`/`<repository name>`/raw/master/index.xml](https://github.com/cfillion/reapack-repository-template/raw/master/index.xml).
+https://thomashugofritz.wixsite.com/website
