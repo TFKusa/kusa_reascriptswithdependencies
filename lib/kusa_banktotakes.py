@@ -18,7 +18,6 @@ from pydub.utils import mediainfo
 
 def getProjectFolder():
     with reapy.inside_reaper():
-        project = reapy.Project()
         bufferSize = 512
         projectPathBuffer = reapy.reascript_api.GetProjectPath("", bufferSize)
         projectPath = projectPathBuffer[0]
