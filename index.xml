@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="kusa_reascriptswithdependencies" commit="e3c0da680c818172a5ad70164c7b67eda85b9241">
+<index version="1" name="kusa_reascriptswithdependencies" commit="99e46ce094a86501186119e410a8520a1cfa10bc">
   <category name="Items">
     <reapack name="kusa_Split and implode from bank.lua" type="script" desc="kusa_Split and implode from bank">
       <metadata>
@@ -14,17 +14,216 @@
       </version>
     </reapack>
   </category>
-  <category name="lib">
+  <category name="lib/banktotakes">
     <reapack name="kusa_banktotakes.py" type="script" desc="kusa_Split and implode from bank_main">
       <metadata>
         <link rel="website">https://thomashugofritz.wixsite.com/website</link>
         <link rel="donation">https://paypal.me/tfkusa?country.x=FR&amp;locale.x=fr_FR</link>
       </metadata>
-      <version name="1.0" author="Kusa" time="2023-12-06T19:19:14Z">
-        <source main="main">https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/21729ab7fcbac8a7a7c6d6e8e6c77ef7ed5517c1/lib/kusa_banktotakes.py</source>
+      <version name="1.01" author="Kusa" time="2023-12-07T11:14:10Z">
+        <source main="main">https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/kusa_banktotakes.py</source>
       </version>
-      <version name="1.01" author="Kusa" time="2023-12-07T00:51:02Z">
-        <source main="main">https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/e3c0da680c818172a5ad70164c7b67eda85b9241/lib/kusa_banktotakes.py</source>
+    </reapack>
+  </category>
+  <category name="lib/banktotakes/build/mac/lib/test/test_email/data">
+    <reapack name="msg_01.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_01.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_02.txt" type="midinotenames">
+      <version name="2.0.4" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_02.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_04.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_04.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_05.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_05.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_06.txt" type="midinotenames" desc="forwarded message">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_06.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_07.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_07.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_08.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_08.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_09.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_09.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_10.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_10.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_11.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_11.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_12.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_12.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_12a.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_12a.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_13.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_13.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_14.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_14.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_15.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_15.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_16.txt" type="midinotenames">
+      <version name="2.1a3" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_16.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_17.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_17.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_18.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_18.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_20.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_20.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_22.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_22.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_24.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_24.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_25.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_25.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_26.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_26.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_27.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_27.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_28.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_28.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_29.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_29.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_30.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_30.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_31.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_31.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_32.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_32.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_33.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_33.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_36.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_36.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_38.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_38.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_39.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_39.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_40.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_40.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_41.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_41.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_43.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_43.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_44.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_44.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_45.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_45.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_46.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_46.txt</source>
+      </version>
+    </reapack>
+    <reapack name="msg_47.txt" type="midinotenames">
+      <version name="1.0" time="2023-12-07T11:14:10Z">
+        <source>https://github.com/TFKusa/kusa_reascriptswithdependencies/raw/99e46ce094a86501186119e410a8520a1cfa10bc/lib/banktotakes/build/mac/lib/test/test_email/data/msg_47.txt</source>
       </version>
     </reapack>
   </category>
