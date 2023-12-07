@@ -7,19 +7,18 @@
 function runExternalProgram()
     local reaperResourcePath = reaper.GetResourcePath()
 
-    local relativeScriptPath = "/Scripts/kusa_reascriptsWithDependencies/lib/kusa_banktotakes.py"
+    local relativeExecutablePath = "/Scripts/kusa_reascriptsWithDependencies/lib/banktotakes/build/mac/kusa_banktotakes" -- Mac executable path
     if reaper.GetOS() == "Win" then
-        relativeScriptPath = "\\Scripts\\kusa_reascriptsWithDependencies\\lib\\kusa_banktotakes.py"
+        relativeExecutablePath = "\\Scripts\\kusa_reascriptsWithDependencies\\lib\\banktotakes\\build\\win\\kusa_banktotakes.exe" -- Windows executable path
     end
 
-    local scriptPath = reaperResourcePath .. relativeScriptPath
+    local executablePath = reaperResourcePath .. relativeExecutablePath
 
     local command
     if reaper.GetOS() == "Win" then
-        command = "python \"" .. scriptPath .. "\""
+        command = "\"" .. executablePath .. "\"" -- Windows execution command
     else
-        local appleScriptCommand = "tell application \"Terminal\" to do script \"python3 '" .. scriptPath .. "'\""
-        command = "osascript -e " .. string.format("%q", appleScriptCommand)
+        command = "open \"" .. executablePath .. "\"" -- Mac execution command
     end
 
     os.execute(command)
